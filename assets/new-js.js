@@ -34,7 +34,7 @@ window.onload = function() {
     document.body.appendChild(goTopBtn);
     goTopBtn.style.position = "fixed";
     goTopBtn.style.bottom = "35px";
-    goTopBtn.style.right = "20px";
+    goTopBtn.style.left = "20px";
     goTopBtn.style.backgroundColor = "#333";
     goTopBtn.style.color = "white";
     goTopBtn.style.border = "none";
