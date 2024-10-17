@@ -64,28 +64,28 @@ window.onload = function() {
   
     
     // product button add label
-    if(window.location.href.indexOf("products/2025-")!=-1){
-      setTimeout(()=>{
-        let buttonList=document.querySelectorAll(".product__linked-products button")
-        buttonList.forEach(item=>{
-          const wrapper = document.createElement('div');
-          const title = document.createElement('p');
-          title.style.fontSize = "0.875rem";
-          title.style.textAlign = "center";
-          title.style.color = "var(--color__text-light)";
-          title.style.opacity = "0.75";
-          if(item.getAttribute("@click").indexOf("daily")!=-1){
-            title.textContent = "Daily";
+    // if(window.location.href.indexOf("products/2025-")!=-1){
+    //   setTimeout(()=>{
+    //     let buttonList=document.querySelectorAll(".product__linked-products button")
+    //     buttonList.forEach(item=>{
+    //       const wrapper = document.createElement('div');
+    //       const title = document.createElement('p');
+    //       title.style.fontSize = "0.875rem";
+    //       title.style.textAlign = "center";
+    //       title.style.color = "var(--color__text-light)";
+    //       title.style.opacity = "0.75";
+    //       if(item.getAttribute("@click").indexOf("daily")!=-1){
+    //         title.textContent = "Daily";
             
-          }else if(item.getAttribute("@click").indexOf("weekly")!=-1){
-            title.textContent = "Weekly";
-          }
-          item.parentNode.insertBefore(wrapper, item);
-          wrapper.appendChild(item); 
-          wrapper.appendChild(title); 
-        })
-      },600)
-    }
+    //       }else if(item.getAttribute("@click").indexOf("weekly")!=-1){
+    //         title.textContent = "Weekly";
+    //       }
+    //       item.parentNode.insertBefore(wrapper, item);
+    //       wrapper.appendChild(item); 
+    //       wrapper.appendChild(title); 
+    //     })
+    //   },600)
+    // }
   
     // Page Product
     if(window.location.href.indexOf("/products")!=-1){
