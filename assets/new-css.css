@@ -623,6 +623,15 @@ section.ra-3-blocks-large h1 {
   margin-top: 50px;
 }
 
+@media (min-width: 768px) and (max-width: 990px) {
+  .ra-icon-list .grid{
+    gap:0px!important;
+  }
+  .ra-icon-list .grid h4 {
+    font-size: 1.1rem;
+  }
+}
+
 /* testimonial - testimonials */
 .testimonial .grid > div > .flex > div:nth-child(1) {
   display: none;
