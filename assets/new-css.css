@@ -931,3 +931,24 @@ body.page-mf-toolkit-landing .alternative-banner{
   font-size: 0.875rem;
 }
 /* page Product - end */
+
+
+/* blog article template - start */
+
+article {
+  max-width: 900px;
+  margin: auto auto;
+}
+article hr {
+  margin: 3rem 2rem !important;
+}
+article iframe {
+  margin: 1.5rem 0;
+}
+
+article h1,
+article h2,
+article h3 {
+  color: var(--color-orange);
+}
+/* blog article template - end */
